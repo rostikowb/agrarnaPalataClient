@@ -1,0 +1,88 @@
+
+
+html,
+body {
+    height: 100%;
+}
+
+body{
+    background-color: #fafafa !important;
+    display: block !important;
+}
+ul, ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.container{
+    max-width: 1200px;
+    min-width: 600px;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+}
+.mainWrapper{
+    min-height: calc(100vh - 212px) !important;
+    flex: 1 0 auto;
+}
+
+.btnType1{
+    color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    transition: all .2s;
+}
+
+.btnType1:hover{
+    color: #000000;
+    border: 1px solid #000000;
+    transition: all .2s;
+}
+
+.btnType2{
+    background-color: #222;
+    border: 2px solid #090909;
+    color: white;
+    margin: 20px 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btnType2:hover{
+    background-color: #696969;
+    transition: all .5s;
+}
+.invisibleH1{
+    height: 0;
+    visibility: hidden;
+ }
+
+@media screen and (min-width: 960px) {
+    html {
+        margin-left: calc(100vw - 101.8%);
+        margin-right: 0;
+    }
+}
+
+.suspense{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+.loader{
+    top: 50%;
+    left: 50%;
+}
+
+.craulerContent{
+    display: none;
+}

@@ -1,0 +1,56 @@
+.logo {
+    font-weight: 300;
+    font-size: 45px;
+    line-height: 40px;
+    color: inherit;
+    text-rendering: optimizelegibility;
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 10px;
+}
+
+.logoUp, .logoDown{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+.logoDown{
+    font-size: 18px;
+}
+
+.logo a {
+    text-align: left;
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+    line-height: .7em;
+}
+
+@media screen and (max-width: 1080px) {
+    .logo {
+        width: 100%;
+        padding-left: 0;
+    }
+    .logo a {
+        margin: 0 auto;
+        font-size: 0.7em;
+    }
+    .logoUp{
+        justify-content: center;
+    }
+
+}
+@media screen and (max-width: 580px) {
+    .logo a {
+        margin: 10px auto;
+        font-size: 0.6em;
+    }
+}

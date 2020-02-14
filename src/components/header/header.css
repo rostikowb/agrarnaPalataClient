@@ -1,0 +1,48 @@
+/*@font-face {*/
+    /*font-family: 'CormorantGaramond';*/
+    /*src: local('CormorantGaramond'), url(./../../assets/fonts/Cormorand/Cormorant-Bold.woff) format('woff');*/
+/*}*/
+
+
+/*@font-face {*/
+    /*font-family: 'CormorantGaramond';*/
+    /*src: local('Cormorant-Bold.woff'), url(/assets/fonts/Cormorant-Bold.woff) format('woff');*/
+/*}*/
+
+
+
+header {
+
+    width: 100%;
+    /*background-color: #a1b5d7;*/
+    min-height: 83px;
+    border-bottom: 1px solid #DDD;
+    display: flex;
+    align-items: center;
+    background-color: #fafafa;
+
+
+
+
+}
+.wrapper {
+    font-family: 'Cormorant-Bold', Helvetica, Arial, sans-serif;
+    width: 1200px;
+    max-width: 1200px;
+    min-width: 370px;
+    height: 100%;
+    /*background-color: white;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+@media screen and (max-width: 1080px) {
+    .wrapper {
+        flex-direction: column;
+    }
+    .logo{
+        margin: 10px 0 5px 0;
+    }
+}
